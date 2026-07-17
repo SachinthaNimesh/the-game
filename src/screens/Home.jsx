@@ -13,19 +13,19 @@ const Home = () => {
   }
 
   return (
-    <motion.div 
+    <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       className="flex flex-col flex-1 justify-center items-center gap-8"
     >
       <div className="text-center space-y-4">
         <h2 className="text-4xl font-extrabold tracking-tight text-white">
-          Ready for <br/>
+          Ready for <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
             Mayhem?
           </span>
         </h2>
-        <p className="text-gray-400">Sri Lankan Party Edition</p>
+        <p className="text-gray-400">Bolli's Special Edition</p>
       </div>
 
       <div className="w-full space-y-4 mt-8">
